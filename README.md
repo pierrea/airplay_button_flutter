@@ -6,6 +6,10 @@ On non-iOS platforms, the widget renders nothing.
 
 Ideal for apps that use AVPlayer-based audio (e.g., via [just_audio](https://pub.dev/packages/just_audio)) and want to offer users an intuitive way to cast audio via AirPlay.
 
+This is how the AirPlay button appears on iOS:
+
+![AirPlay button example](screenshots/airplay_btn.png)
+
 ## Usage
 
 Simply use the `AirPlayButton` widget in your code to display the button.

@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Add screenshot to the readme
+
 ## 0.2.0
 
 * Use Apple's standard blue colors by default instead of pink

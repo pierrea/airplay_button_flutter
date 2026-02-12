@@ -1,12 +1,16 @@
 name: airplay_button
 description: "A Flutter plugin that displays a native iOS AirPlay route picker button for casting audio to AirPlay devices."
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/pierrea/airplay_button_flutter
 repository: https://github.com/pierrea/airplay_button_flutter
 topics:
   - airplay
   - audio
   - ios
+
+screenshots:
+  - description: 'AirPlay button example'
+    path: screenshots/airplay_btn.png
 
 environment:
   sdk: ">=3.4.3 <4.0.0"
