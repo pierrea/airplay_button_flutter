@@ -10,7 +10,7 @@ import 'package:flutter/services.dart';
 /// the system since the app uses AVPlayer (via just_audio) under the hood.
 ///
 /// On non-iOS platforms, this widget renders nothing.
-class AirPlayButton extends StatelessWidget {
+class AirplayButton extends StatelessWidget {
   /// Size of the button (width and height).
   final double size;
 
@@ -20,7 +20,7 @@ class AirPlayButton extends StatelessWidget {
   /// Tint color when an AirPlay route is active.
   final Color activeTintColor;
 
-  const AirPlayButton({
+  const AirplayButton({
     super.key,
     this.size = 46,
     this.tintColor = const Color(0xFFFFCCF2),
