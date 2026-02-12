@@ -8,7 +8,8 @@ Ideal for apps that use AVPlayer-based audio (e.g., via [just_audio](https://pub
 
 ## Usage
 
-Simply use the `AirplayButton` widget in your code to display the button. You can pass it a custom size and colors.
+Simply use the `AirplayButton` widget in your code to display the button.
+You can pass it a custom size and colors—parameters are all optional.
 
 ```dart
 AirplayButton(
