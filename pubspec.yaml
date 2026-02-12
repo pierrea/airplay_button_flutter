@@ -1,4 +1,4 @@
-name: airplay_audio_button
+name: airplay_button
 description: "Airplay button to cast audio in Flutter"
 version: 0.1.0
 homepage:
@@ -28,4 +28,4 @@ flutter:
   plugin:
     platforms:
       ios:
-        pluginClass: AirplayAudioButtonPlugin
+        pluginClass: AirplayButtonPlugin

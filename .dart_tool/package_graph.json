@@ -1,10 +1,10 @@
 {
   "roots": [
-    "airplay_audio_button"
+    "airplay_button"
   ],
   "packages": [
     {
-      "name": "airplay_audio_button",
+      "name": "airplay_button",
       "version": "0.1.0",
       "dependencies": [
         "flutter"

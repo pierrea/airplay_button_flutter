@@ -11,29 +11,26 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Airplay Button
 
-## Features
+A simple Flutter widget that displays a native iOS AirPlay route picker button for casting audio from your app to available AirPlay devices. On iOS, this embeds the system AVRoutePickerView for seamless audio routing.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+On non-iOS platforms, the widget renders nothing.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Ideal for apps that use AVPlayer-based audio (e.g., via [just_audio](https://pub.dev/packages/just_audio)) and want to offer users an intuitive way to cast audio via AirPlay.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Simply use the `AirplayButton` widget in your code to display the button. You can pass it a custom size and colors.
 
 ```dart
-const like = 'sample';
+AirplayButton(
+  size: 46, // default: 46
+  tintColor: const Color(0xFFFFCCF2), // default: light pink
+  activeTintColor: const Color(0xFFEC4899), // default: pink
+)
 ```
 
-## Additional information
+## Credits
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Inspired by [flutter_to_airplay](https://pub.dev/packages/flutter_to_airplay)

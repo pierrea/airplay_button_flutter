@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface AirplayAudioButtonPlugin : NSObject<FlutterPlugin>
+@interface AirplayButtonPlugin : NSObject<FlutterPlugin>
 @end
