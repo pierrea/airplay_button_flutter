@@ -8,14 +8,16 @@ Ideal for apps that use AVPlayer-based audio (e.g., via [just_audio](https://pub
 
 ## Usage
 
-Simply use the `AirplayButton` widget in your code to display the button.
+Simply use the `AirPlayButton` widget in your code to display the button.
 You can pass it a custom size and colors—parameters are all optional.
 
 ```dart
-AirplayButton(
-  size: 46, // default: 46
-  tintColor: const Color(0xFFFFCCF2), // default: light pink
-  activeTintColor: const Color(0xFFEC4899), // default: pink
+import 'package:airplay_button/air_play_button.dart';
+
+AirPlayButton(
+  size: 46, // default
+  tintColor: const Color(0xFF007AFF), // Apple's standard light blue
+  activeTintColor: const Color(0xFF0040DD), // deeper blue to indicate active state
 )
 ```
 
