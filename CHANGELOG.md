@@ -1,3 +1,6 @@
-## 0.0.1
+## 0.1.0
 
-* TODO: Describe initial release.
+* Initial release.
+* AirplayButton widget displaying the native iOS AVRoutePickerView.
+* Customizable size, tint color, and active tint color.
+* Renders nothing on non-iOS platforms.
