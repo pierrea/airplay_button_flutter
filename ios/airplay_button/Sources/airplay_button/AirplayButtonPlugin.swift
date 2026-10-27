@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftAirplayButtonPlugin: NSObject, FlutterPlugin {
+public class AirplayButtonPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     registrar.register(
         AirPlayRoutePickerViewFactory(),

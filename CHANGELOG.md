@@ -1,3 +1,8 @@
+## 0.2.2
+
+* Add Swift Package Manager support for iOS. CocoaPods remains supported.
+* Raise the minimum iOS version to 15.0, matching Flutter 3.47.
+
 ## 0.2.1
 
 * Add screenshot to the readme

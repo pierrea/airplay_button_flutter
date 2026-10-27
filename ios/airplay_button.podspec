@@ -10,9 +10,9 @@ for casting audio to available AirPlay devices.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Pierre Alvan' => '' }
   s.source           = { :path => '.' }
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'airplay_button/Sources/airplay_button/**/*'
   s.dependency 'Flutter'
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '15.0'
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version    = '5.0'
